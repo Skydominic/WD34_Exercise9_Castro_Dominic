@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Exercise9.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Japanese Resturant</title>
+  </head>
+  <body>
+    <section>
+      <div class="hero">
+        <header class="header">
+          <a href="#">
+            <img class="nav-logo" src="./assets/img icons/freda.png" alt="bowl with rice and fish" />
+          </a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="nav-link"
+                  ><img
+                    class="icon-nav nav-home"
+                    src="./assets/img icons/home.png"
+                    alt=""
+                  />
+                  <p class="nav-txt">Home</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">
+                  <img
+                    class="icon-nav nav-menu"
+                    src="./assets/img icons/cutlery.png"
+                    alt=""
+                  />
+                  <p class="nav-txt">Menu</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">
+                  <img
+                    class="icon-nav nav-promo"
+                    src="./assets/img icons/discount.png"
+                    alt=""
+                  />
+                  <p class="nav-txt">Promo</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">
+                  <img
+                    class="icon-nav nav-contact"
+                    src="./assets/img icons/letter.png"
+                    alt=""
+                  />
+                  <p class="nav-txt">Contact</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="hero-content">
+          <img src="./assets/img icons/alma.png" alt="" class="hero-logo">
+          <h1 class="hero-txt">TokyoLove</h1>
+          <button class="btn hero-btn">Order Online</button>
+        </div>
+        <div class="overlay"></div>
+        <video src="./Sushi-vid_1.mp4" width="100%" autoplay loop muted></video>
+      </div>
+    </section>
+    <main>
+      <section class="about-us">
+        <div class="container">
+          <span class="subheading">About us</span>
+          <h2 class="heading-secondary">This our station</h2>
+        </div>
+
+        <div class="container grid">
+          <div class="au-textbox">
+            <h3 class="h3">Working station</h3>
+            <p class="au-description">
+              This our kitchen we show our cleanliness and decorating skills
+              People can watch us do the sushi and they enjoy it We offer
+              something for everyone with traditional Japanese cuisine that
+              features an expansive menu of hibachi, teriyaki, sushi and
+              sashimi, as well as our homemade signature sauces and variety of
+              Sake selections. We also feature daily specials, and a lunch and
+              dinner menu that can be ordered through delivery or takeout.
+            </p>
+          </div>
+
+          <div class="au-textbox">
+            <img
+              src="making sushi.jpg"
+              alt="chef making sushi"
+              class="img-au"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">Japanese Resturant Menu And Recipes</h2>
+        </div>
+
+        <div class="container grid grid-3-cols margin-bottom-md">
+          <div class="meal">
+            <img src="Japan-sushi.jpg" alt="Sushi" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--seafoods">Seafoods</span>
+                <span class="tag tag--rice">Rice</span>
+              </div>
+              <p class="meal-title">Japanese Sushi</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span> <strong>500</strong> Calories </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>92</strong> </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span> <strong>4.8</strong> rating </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="meal-1.jpg" alt="Gyozas" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+              </div>
+              <p class="meal-title">Japanese Gyozas</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span> <strong>600</strong> Calories </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong> </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span> <strong>4.7</strong> rating </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="Ramen.jpg" alt="Ramen" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--soup">Soup</span>
+                <span class="tag tag--noodles">Noodles</span>
+              </div>
+              <p class="meal-title">Japanese Ramen</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span> <strong>290</strong> Calories </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>NutriScore &reg; <strong>47</strong> </span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span> <strong>4.9</strong> rating </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container-form" id="comment">
+        <form class="cta-form" action="#">
+          <div>
+            <label for="full-name">Full Name</label>
+            <input
+              id="full-name"
+              type="text"
+              placeholder="Dominic Castro"
+              required
+            />
+          </div>
+  
+          <div>
+            <label for="email">Email Address</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="me@example.com"
+              required
+            />
+          </div>
+  
+          <div class="commentdaw">
+            <label for="comment">Comment:</label>
+            <br />
+            <textarea
+              name="comment"
+              cols="100"
+              class="comment"
+              placeholder="Enter Comment"
+            ></textarea>
+          </div>
+          <button
+            type="submit submit2"
+            value="Submit the Feedback"
+            class="submit"
+          />
+          Submit
+        </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
